@@ -62,7 +62,7 @@ For More Details Click Help Button Below..
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/sarathbotz">SarathAutofilterbotv2</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/Sarathooq">SarathAutofilterbotv2</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
