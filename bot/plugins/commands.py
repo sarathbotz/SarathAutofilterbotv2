@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('🔰Developer🔰', url='https://t.me/Sarathooq'),
+        InlineKeyboardButton('⭕️Group⭕️', url ='https://t.me/Malamove1')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/Malamove4')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -67,7 +67,7 @@ async def start(bot, update):
     )
 
 
-@Client.on_message(filters.command(["help"]) & filters.private, group=1)
+@Sarathooq.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
@@ -87,7 +87,7 @@ async def help(bot, update):
     )
 
 
-@Client.on_message(filters.command(["about"]) & filters.private, group=1)
+@Sarathooq.on_message(filters.command(["about"]) & filters.private, group=1)
 async def about(bot, update):
     
     buttons = [[
